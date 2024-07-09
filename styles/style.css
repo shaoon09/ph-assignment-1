@@ -1,19 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
-body{
+
+body {
     font-family: "Inter", sans-serif;
 }
-.header-container{
-    width: 1440px;
-height: 652px;
 
-margin: 0 auto;
-background-image: url(../assets/Hero-bg.png);
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
+/* header style start here  */
+.header-container {
+    width: 1440px;
+    height: 652px;
+    border: 2px solid transparent;
+    margin: 0 auto;
+    background-image: url(../assets/Hero-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-.header-content{
-    
+
+.header-content {
+
     margin: 0 auto;
     height: 652px;
     justify-content: center;
@@ -21,36 +25,50 @@ background-size: cover;
     align-items: center;
 
 }
-.header-content h1{
+
+.header-content h1 {
     color: rgb(13, 19, 33);
-    
-font-size: 48px;
-font-weight: 800;
+
+    font-size: 48px;
+    font-weight: 800;
 }
-.header-content p{
+
+.header-content p {
     color: rgb(13, 19, 33);
-    
-margin: 0 auto;
-font-size: 16px;
-font-weight: 400;
-opacity: 0.7;
-width: 852px;
-margin-top: 50px;
+
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    width: 852px;
+    margin-top: 50px;
 
 
 }
-.header-content-btn{
+
+.header-content-btn {
     width: 208px;
-height: 66px;
+    height: 66px;
     border-radius: 8px;
     color: white;
     font-size: 20px;
     font-size: 20px;
-font-weight: 600;font-weight: 600;
+    font-weight: 600;
+    font-weight: 600;
     background: rgb(13, 19, 33);
     margin-top: 40px;
 
 }
-.header-content-img{
-    margin-top: 30px;
+
+.header-content-img {
+    margin-top: 20px;
+}
+/* web-development-container style start here */
+.web-development-container{
+    width: 1140px;
+height: 1395px;
+border: 2px solid red;
+margin: 0 auto;
+margin-top: 74px;
+
 }
