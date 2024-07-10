@@ -57,7 +57,7 @@ body {
     width: 208px;
     height: 66px;
     border-radius: 8px;
-    color: white;
+    
     font-size: 20px;
     font-size: 20px;
     font-weight: 600;
@@ -66,6 +66,9 @@ body {
     margin-top: 40px;
     cursor: pointer;
 
+}
+#btn-color{
+    color: white;
 }
 
 .header-content-img {
